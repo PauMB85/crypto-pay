@@ -166,20 +166,64 @@ La adopción de criptomonedas varía considerablemente según la región. Paíse
 
 ## 4. Diferenciadores Clave
 
-1. **Uso de RSK**: La integración con Rootstock y su compatibilidad con EVM permite aprovechar el ecosistema de contratos inteligentes, ofreciendo características avanzadas que otras aplicaciones no pueden. Al no existir otra aplicacion que ofrezca dicho servicio es una gran nicho de mercado.
+1. **Facilidad de Uso**: El enfoque en generar códigos QR y enlaces de pago simplificados ofrece una experiencia más amigable, especialmente para usuarios menos técnicos.
 
-2. **Facilidad de Uso**: El enfoque en generar códigos QR y enlaces de pago simplificados ofrece una experiencia más amigable, especialmente para usuarios menos técnicos.
+2. **Interacción a través de Mensajería**: La funcionalidad para compartir enlaces de pago fácilmente a través de aplicaciones de mensajería es un diferenciador importante que mejora la usabilidad y accesibilidad.
 
-3. **Interacción a través de Mensajería**: La funcionalidad para compartir enlaces de pago fácilmente a través de aplicaciones de mensajería es un diferenciador importante que mejora la usabilidad y accesibilidad.
-
-4. **Transparencia y Control**: Al proporcionar un bote común y funciones de gestión de gastos, se fomenta la transparencia en las transacciones grupales, algo que muchas aplicaciones no ofrecen.
+3. **Transparencia y Control**: Al proporcionar un bote común y funciones de gestión de gastos, se fomenta la transparencia en las transacciones grupales, algo que muchas aplicaciones no ofrecen.
 
 Por lo tanto, a modo de resumen:
 
-- La mayoría de estas aplicaciones están centradas en Bitcoin y la red Lightning debido a su baja latencia y bajos costos de transacción. Esto deja espacio para soluciones en redes como Rootstock (RSK), que tienen un enfoque más hacia la compatibilidad con Ethereum y contratos inteligentes.
 - La funcionalidad de compartir enlaces de pago a través de plataformas de mensajería (WhatsApp, Telegram) no está tan desarrollada en algunas de estas aplicaciones, lo cual puede ser un diferenciador clave para el proyecto.
-- La restricción de pagar solo con el token solicitado (DOC, USDRif, RBTC) también es una diferencia relevante, ya que la mayoría de estas soluciones permiten pagos con diferentes criptomonedas, aunque no coincidan con la solicitada.
-- Al usar la red RSK y está es una red de bitcoiners y para bitcoiners ofrece un nicho único en el mercado.
+- La restricción de pagar solo con el token solicitado también es una diferencia relevante, ya que la mayoría de estas soluciones permiten pagos con diferentes criptomonedas, aunque no coincidan con la solicitada.
+
+
+## 5. Análisis Stablecoins
+
+Revisanson la información que se puede visualizar en Defillama (stables), se puede ver que las stablecoins que dominan son USDT y USDC. A Continuación se explican las redes más usadas y guiadas por las fees más bajas según Gas Fees Now.
+
+### Visión General
+El mercado de stablecoins está dominado en su mayoría por **USDT** y **USDC**, con USDT liderando con una participación del 69.63% del mercado total, equivalente a $120.44 mil millones, y **USDC** en segundo lugar con el 19.95% ($34.414 mil millones). Ambos stablecoins se distribuyen de manera distinta en cada blockchain, variando según los costos de transacción y el tipo de aplicaciones que soportan.
+
+![Vision general - volumen](./imgs/01_stablecoin_all_blockcain.png)
+![Vision general - distribución](./imgs/02_pie_stablecoin_all_blockchain.png)
+
+### Análisis por Blockchain
+
+1. **Ethereum**:
+   - **Distribución**: En Ethereum, el volumen de stablecoins es de $84.245 mil millones. **USDT** tiene una cuota de 56.17%, seguido de **USDC** con 26.95%.
+   - **Costos de Transacción**: La tarifa media en Ethereum es de aproximadamente **$2.47 USD** para stablecoins, según [Gas Fees Now](https://gasfeesnow.com), lo que lo hace costoso para transacciones pequeñas.
+  ![Vision general - volumen](./imgs/03_stablecoin_eth.png)
+![Vision general - distribución](./imgs/04_pie_stablecoin_eth.png)
+
+2. **Tron**:
+   - **Distribución**: Tron es casi exclusivamente dominado por **USDT**, que representa el 98.26% del volumen total en esta red, equivalente a $59.492 mil millones.
+   - **Costos de Transacción**: El costo de transacción en Tron se sitúa entre **$2.2 y $4.47 USD**, lo cual sigue siendo relativamente económico para transacciones de alto volumen.
+  ![Vision general - volumen](./imgs/05_stablecoint_tron.png)
+![Vision general - distribución](./imgs/06_pie_stablecoin_tron.png)
+
+1. **Binance Smart Chain (BSC)**:
+   - **Distribución**: En BSC, USDT lidera con el 77.98% del mercado de stablecoins, mientras que USDC ocupa el 9.86%.
+   - **Costos de Transacción**: Los costos de transacción en BSC son bajos, aproximadamente **$0.09 USD** en promedio.
+![Vision general - volumen](./imgs/07_stablecoin_bsc.png)
+![Vision general - distribución](./imgs/08_stablecoin_pie_bsc.png)
+
+1. **Polygon**:
+   - **Distribución**: En Polygon, **USDC** domina con el 54.53% del volumen, mientras que USDT representa el 38.96%.
+   - **Costos de Transacción**: Las tarifas en Polygon son extremadamente bajas, con un promedio de **$0.001 USD**.
+![Vision general - volumen](./imgs/09_stablecoin_polygon.png)
+![Vision general - distribución](./imgs/10_stablecoin_pie_polygon.png)
+
+1. **Solana**:
+   - **Distribución y Preferencia**: Solana es utilizada tanto para USDT como para USDC, especialmente para aplicaciones que requieren rapidez y bajo costo.
+   - **Costos de Transacción**: Las tarifas en Solana varían entre **$0.14 y $0.54 USD**.
+
+2. **TON**:
+   - **Distribución**: En TON, el mercado de stablecoins es exclusivamente de **USDT**, con una capitalización de mercado de **$867.75 millones**, lo que representa una dominancia del 100%.
+   - **Costos de Transacción**: Las tarifas en TON  es aproximadamente **$0.073 USD**, es conocido por tener costos de transacción competitivos y atractivos para USDT en aplicaciones móviles y de mensajería como Telegram.
+![Vision general - volumen](./imgs/11_stablecoin_ton.png)
+
+Esta distribución resalta cómo cada blockchain se especializa en un tipo de stablecoin en función de su perfil de tarifas y ecosistema, con **Tron** y **TON** sobresaliendo para USDT, mientras que **Polygon** y **Ethereum** son preferidos para USDC en aplicaciones DeFi.
 
 ## 5. Estrategia de Monetización
 
