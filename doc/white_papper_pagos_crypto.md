@@ -211,7 +211,6 @@ El mercado de stablecoins está dominado en su mayoría por **USDT** y **USDC**,
 1. **Polygon**:
    - **Distribución**: En Polygon, **USDC** domina con el 54.53% del volumen, mientras que USDT representa el 38.96%.
    - **Costos de Transacción**: Las tarifas en Polygon son extremadamente bajas, con un promedio de **$0.001 USD**.
-![Vision general - volumen](./imgs/09_stablecoin_polygon.png)
 ![Vision general - distribución](./imgs/10_stablecoin_pie_polygon.png)
 
 1. **Solana**:
